@@ -2,37 +2,40 @@ export const experience = [
   {
     title: 'Software Engineer Intern',
     company: 'Lawrence Berkeley National Laboratory',
-    location: 'Berkeley, CA',
-    start: 'May 2024',
-    end: 'August 2024',
+    location: 'Berkeley, CA · Research Poster',
+    start: 'Jun 2024',
+    end: 'Aug 2024',
     bullets: [
-      'Built data pipelines to surface experiment insights for lab researchers in near real-time.',
-      'Optimized AI-driven analytics dashboards, reducing query latency by 35%.',
-      'Collaborated with scientists to productionize models for automated reporting workflows.'
+      'Developed Python scripts for STXM data analysis using NumPy and SciPy, enabling real-time processing at the Advanced Light Source and delivering a 500% throughput increase.',
+      'Applied PCA, NNMF, and K-Means to uncover spectral patterns in complex optical density datasets reviewed by beamline scientists.',
+      'Created matplotlib dashboards that highlight data trends and image center-of-mass calculations for faster experiment decisions.',
+      'Hardened the codebase with automated tests and performance profiling to boost reliability and scalability.'
     ]
   },
   {
     title: 'Software Engineer Intern',
     company: 'Shop Online New York',
-    location: 'Remote',
-    start: 'December 2024',
-    end: 'June 2024',
+    location: 'New York, NY (Hybrid)',
+    start: 'Dec 2024',
+    end: 'Jun 2025',
     bullets: [
-      'Developed customer experience features that increased checkout conversion by 12%.',
-      'Integrated third-party APIs to expand product catalog coverage across vendors.',
-      'Instrumented analytics events that informed merchandising and campaign decisions.'
+      'Partnered with product and design to ship responsive React experiences aligned with merchandising goals and customer research.',
+      'Audited account surfaces for security, reinforcing authentication, authorization, and protection of sensitive shopper data.',
+      'Implemented modular UI components and API integrations that improved content load times and streamlined reuse across teams.',
+      'Instrumented performance monitoring to surface bottlenecks and keep dynamic catalog pages responsive under peak traffic.'
     ]
   },
   {
-    title: 'Student Assistant / Tutor',
-    company: 'CSU East Bay (STEM Lab / MESA)',
-    location: 'Hayward, CA',
-    start: 'January 2024',
-    end: 'May 2025',
+    title: 'Software Engineer Intern',
+    company: 'Alan AI',
+    location: 'San Mateo, CA (Remote)',
+    start: 'Jun 2021',
+    end: 'Oct 2021',
     bullets: [
-      'Tutored STEM students in algorithms, data structures, and applied math topics.',
-      'Created practice labs and review sessions that improved student pass rates by 18%.',
-      'Maintained lab equipment and supported faculty with course tooling updates.'
+      'Delivered the front-end for a voice-controlled gaming experience on the Alan AI platform using JavaScript and the company\'s internal tooling.',
+      'Created a reusable template that accelerated future conversational game prototypes for internal and partner teams.',
+      'Presented the product in demos to 30+ game-development professionals, incorporating feedback into subsequent iterations.',
+      'Collaborated on voice-enabled scripts that showcased the platform\'s natural-language capabilities in real time.'
     ]
   }
 ];
