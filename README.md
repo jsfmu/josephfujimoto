@@ -19,7 +19,6 @@ A modern single-page portfolio built with React and Vite. The site highlights my
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - Node.js 18+
 - npm 9+
 

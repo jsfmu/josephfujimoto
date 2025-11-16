@@ -2,7 +2,14 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <div className="hero-subtitle">Hi, I&apos;m</div>
+        <div className="hero-subtitle">
+          <span className="typewriter">
+            <span className="typewriter-text">Hi, I&apos;m</span>
+            <span className="typewriter-cursor" aria-hidden="true">
+              _
+            </span>
+          </span>
+        </div>
         <h1 className="hero-title">Joseph Fujimoto</h1>
         <div className="hero-tagline">Software Engineer · AI &amp; Data</div>
         <p className="hero-description">I’m a CS grad who builds practical software, AI, and data projects.</p>
