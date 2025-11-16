@@ -13,7 +13,7 @@ export const experience = [
   },
   {
     title: 'Software Engineer Intern',
-    company: 'ShopOnlineNewYork',
+    company: 'Shop Online New York',
     location: 'Remote',
     start: 'December 2024',
     end: 'June 2024',
