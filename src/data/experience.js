@@ -3,8 +3,8 @@ export const experience = [
     title: 'Software Engineer Intern',
     company: 'Lawrence Berkeley National Laboratory',
     location: 'Berkeley, CA',
-    start: 'Jun 2024',
-    end: 'Sep 2024',
+    start: 'May 2024',
+    end: 'August 2024',
     bullets: [
       'Built data pipelines to surface experiment insights for lab researchers in near real-time.',
       'Optimized AI-driven analytics dashboards, reducing query latency by 35%.',
@@ -15,8 +15,8 @@ export const experience = [
     title: 'Software Engineer Intern',
     company: 'ShopOnlineNewYork',
     location: 'Remote',
-    start: 'Jan 2024',
-    end: 'May 2024',
+    start: 'December 2024',
+    end: 'June 2024',
     bullets: [
       'Developed customer experience features that increased checkout conversion by 12%.',
       'Integrated third-party APIs to expand product catalog coverage across vendors.',
@@ -27,8 +27,8 @@ export const experience = [
     title: 'Student Assistant / Tutor',
     company: 'CSU East Bay (STEM Lab / MESA)',
     location: 'Hayward, CA',
-    start: 'Sep 2022',
-    end: 'Dec 2023',
+    start: 'January 2024',
+    end: 'May 2025',
     bullets: [
       'Tutored STEM students in algorithms, data structures, and applied math topics.',
       'Created practice labs and review sessions that improved student pass rates by 18%.',
