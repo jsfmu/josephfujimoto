@@ -3,14 +3,14 @@ export const projects = [
     name: 'Material Visual Network',
     tech: 'Python · Machine Learning · Data Visualization',
     description:
-      'Built an ML-powered pipeline to cluster material science datasets and render interactive relationship graphs for researchers.',
-    githubUrl: 'https://github.com/jf-labs/Mat-Vis-Net'
+      'Built an ML-powered pipeline to cluster materials science datasets and render interactive relationship graphs so I can explore structure-property patterns faster.',
+    githubUrl: 'https://github.com/j0sephmalakie/material-visual-network'
   },
   {
-    name: 'FND Agent',
-    tech: 'TypeScript/JavaScript · APIs · System Design',
+    name: 'Floor & Decor Agent',
+    tech: 'Node.js · Express · Redis · Observability Stack',
     description:
-      'Designed an agentic service that orchestrates multi-API workflows to automate data enrichment and report generation tasks.',
+      'System design exercise that orchestrates inventory, pricing, and recommendation services to surface in-stock alternatives with caching, monitoring, and fault-tolerant workflows.',
     githubUrl: 'https://github.com/jf-labs/floor-decor-agent'
   },
   {
@@ -20,12 +20,6 @@ export const projects = [
       'Implemented a socket-driven messaging platform with typing indicators, presence, and desktop notifications for study groups.',
     githubUrl: 'https://github.com/R3r3zzed/Comms-Project'
   },
-  {
-    name: 'Urban Planning Web App',
-    tech: 'JavaScript · HTML · CSS · Bootstrap',
-    description:
-      'Created an interactive map tool that helps city planners visualize zoning data and simulate proposed development scenarios.',
-    githubUrl: 'https://github.com/jsfmu/sgacampaign'
-  }
+
 ];
 
