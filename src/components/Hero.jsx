@@ -1,4 +1,40 @@
+import { useRef } from 'react';
+
 const Hero = () => {
+  const photoRef = useRef(null);
+
+  const handleMouseMove = (event) => {
+    const card = photoRef.current;
+    if (!card) return;
+
+    const rect = card.getBoundingClientRect();
+    const offsetX = event.clientX - rect.left;
+    const offsetY = event.clientY - rect.top;
+    const percentX = offsetX / rect.width;
+    const percentY = offsetY / rect.height;
+    const rotateRange = 12;
+
+    const rotateY = (percentX - 0.5) * rotateRange * 2;
+    const rotateX = -(percentY - 0.5) * rotateRange * 2;
+
+    card.style.setProperty('--tilt-x', `${rotateX.toFixed(2)}deg`);
+    card.style.setProperty('--tilt-y', `${rotateY.toFixed(2)}deg`);
+    card.style.setProperty('--tilt-scale', '1.04');
+    card.style.setProperty('--tilt-glow-x', `${percentX * 100}%`);
+    card.style.setProperty('--tilt-glow-y', `${percentY * 100}%`);
+  };
+
+  const handleMouseLeave = () => {
+    const card = photoRef.current;
+    if (!card) return;
+
+    card.style.setProperty('--tilt-x', '0deg');
+    card.style.setProperty('--tilt-y', '0deg');
+    card.style.setProperty('--tilt-scale', '1');
+    card.style.setProperty('--tilt-glow-x', '50%');
+    card.style.setProperty('--tilt-glow-y', '50%');
+  };
+
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
@@ -32,8 +68,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-media">
-          <div className="hero-photo">
-            <div className="hero-photo-glow" aria-hidden="true" />
+          <div
+            className="hero-photo"
+            ref={photoRef}
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
+          >
             <img src="/src/assets/jf.jpg" alt="Joseph Fujimoto portrait" loading="lazy" />
           </div>
         </div>
