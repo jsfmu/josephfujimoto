@@ -2,7 +2,7 @@
 
 A modern single-page portfolio built with React and Vite. The site highlights my experience, projects, and contact information and is intended for deployment at [josephfujimoto.com](https://josephfujimoto.com).
 
-## ✨ Features
+## Features
 
 - Sticky navigation with smooth section anchors
 - Hero section with resume and social links
@@ -10,13 +10,13 @@ A modern single-page portfolio built with React and Vite. The site highlights my
 - Responsive dark theme with custom CSS only
 - Reusable project cards with external GitHub links
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - React 18 (JavaScript)
 - Vite
 - Plain CSS (`src/index.css`)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -44,7 +44,7 @@ npm run build
 
 The optimized output is written to `dist/`.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -65,12 +65,12 @@ src/
     projects.js
 ```
 
-## 🛠 Customization
+## Customization
 
 - Update copy or add new sections in the respective component files.
 - Add or remove experiences/projects by editing the arrays in `src/data/experience.js` and `src/data/projects.js`.
 - Adjust colors, spacing, or responsive rules in `src/index.css`.
 
-## 📬 Contact
+## Contact
 
 Questions or ideas? Reach me at [j0sephmalakie@gmail.com](mailto:j0sephmalakie@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/j0sephmalakie/).
