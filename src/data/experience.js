@@ -15,7 +15,7 @@ export const experience = [
   {
     title: 'Software Engineer Intern',
     company: 'Shop Online New York',
-    location: 'New York, NY (Hybrid)',
+    location: 'Remote',
     start: 'Dec 2024',
     end: 'Jun 2025',
     bullets: [
@@ -28,7 +28,7 @@ export const experience = [
   {
     title: 'Software Engineer Intern',
     company: 'Alan AI',
-    location: 'San Mateo, CA (Remote)',
+    location: 'Remote',
     start: 'Jun 2021',
     end: 'Oct 2021',
     bullets: [
