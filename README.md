@@ -1,7 +1,6 @@
 # Joseph Fujimoto – Portfolio
 
-A modern single-page portfolio built with React and Vite. The site highlights my experience, projects, and contact information and is intended for deployment at [josephfujimoto.com](https://josephfujimoto.com). Stay in tune!
-
+A modern single-page portfolio built with React and Vite. The site highlights my experience, projects, and contact information and is delpoyed at [josephfujimoto.com](https://josephfujimoto.com).
 ## Features
 
 - Sticky navigation with smooth section anchors
