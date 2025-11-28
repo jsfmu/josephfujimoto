@@ -4,7 +4,8 @@ export const projects = [
     tech: 'Python · Machine Learning · Data Visualization',
     description:
       'Built an ML-powered pipeline to cluster materials science datasets and render interactive relationship graphs so I can explore structure-property patterns faster.',
-    githubUrl: 'https://github.com/j0sephmalakie/material-visual-network'
+    githubUrl: 'https://github.com/j0sephmalakie/material-visual-network',
+    liveUrl: 'https://matvisnetui.onrender.com/'
   },
   {
     name: 'Floor & Decor Agent',
