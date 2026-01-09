@@ -72,4 +72,4 @@ src/
 
 ## Contact
 
-Questions or ideas? Reach me at [j0sephmalakie@gmail.com](mailto:j0sephmalakie@gmail.com) or connect on [LinkedIn]([https://www.linkedin.com/in/j0sephmalakie/](https://www.linkedin.com/in/joseph-fujimoto/)).
+Questions or ideas? Reach me at [j0sephmalakie@gmail.com](mailto:j0sephmalakie@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/joseph-fujimoto/).
