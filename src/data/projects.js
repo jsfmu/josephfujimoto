@@ -8,11 +8,12 @@ export const projects = [
     liveUrl: 'https://matvisnetui.onrender.com/'
   },
   {
-    name: 'Floor & Decor Agent',
-    tech: 'Node.js · Express · Redis · Observability Stack',
+    name: 'Fixr 311',
+    tech: 'Next.js 14 · React · Leaflet · MongoDB Atlas',
     description:
-      'System design exercise that orchestrates inventory, pricing, and recommendation services to surface in-stock alternatives with caching, monitoring, and fault-tolerant workflows.',
-    githubUrl: 'https://github.com/jf-labs/floor-decor-agent'
+      'Full-stack 311 reporting MVP that lets users drop a pin, generate an AI-assisted draft (with deterministic fallback), save, and share reports with no login; includes GeoJSON + 2dsphere indexing for fast bounding-box map queries.',
+    githubUrl: 'https://fixr.josephfujimoto.com/',
+    liveUrl: 'https://matvisnetui.onrender.com/'
   },
   {
     name: 'Real-Time Messenger',
