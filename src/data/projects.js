@@ -12,8 +12,8 @@ export const projects = [
     tech: 'Next.js 14 · React · Leaflet · MongoDB Atlas',
     description:
       'Full-stack 311 reporting MVP that lets users drop a pin, generate an AI-assisted draft (with deterministic fallback), save, and share reports with no login; includes GeoJSON + 2dsphere indexing for fast bounding-box map queries.',
-    githubUrl: 'https://fixr.josephfujimoto.com/',
-    liveUrl: 'https://matvisnetui.onrender.com/'
+    githubUrl: 'https://github.com/jsfmu/fixr311',
+    liveUrl: 'https://fixr.josephfujimoto.com/'
   },
   {
     name: 'Real-Time Messenger',
