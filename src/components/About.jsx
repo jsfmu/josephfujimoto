@@ -5,9 +5,9 @@ const About = () => {
         <h2 className="section-heading">About</h2>
         <p className="section-subtitle">
           I’m a Computer Science graduate from CSU East Bay who likes building real, usable tools:
-          web apps, AI, and data-driven projects.
+          deployed web apps, AI, and data-driven projects
         </p>
-        <p>Currently working on AI + data projects and looking for full-time SWE roles.</p>
+        <p>Currently working on full-stack projects and looking for full-time SWE roles</p>
       </div>
     </section>
   );
