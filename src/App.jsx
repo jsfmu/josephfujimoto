@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
-import About from './components/About.jsx';
+// import About from './components/About.jsx';
 import Experience from './components/Experience.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
@@ -29,7 +29,7 @@ const App = () => {
       <Navbar />
       <main>
         <Hero />
-        <About />
+        {/* <About /> */}
         <Experience />
         <Projects />
         <Contact />

@@ -50,9 +50,12 @@ const Hero = () => {
           </div>
           <h1 className="hero-title">Joseph Fujimoto</h1>
           <div className="hero-tagline">Software Engineer · AI &amp; Data</div>
-          {/* <p className="hero-description">
-            I’m a CS grad who builds practical software, AI, and data projects.
-          </p> */}
+          <p className="hero-description">
+            <p className="section-subtitle">
+          I’m a Computer Science graduate from CSU East Bay who likes building real, usable tools:
+          deployed web apps, AI, and data-driven projects
+        </p>
+        </p>
           <div className="hero-actions">
             <a
               className="btn btn-primary"
