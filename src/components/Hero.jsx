@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="hero-tagline">Software Engineer · AI &amp; Data</div>
           <p className="hero-description">
             <p className="section-subtitle">
-          I’m a Computer Science graduate from CSU East Bay who likes building real, usable tools:
+          I’m a Computer Science student from CSU East Bay who likes building real, usable tools:
           deployed web apps, AI, and data-driven projects
         </p>
         </p>
